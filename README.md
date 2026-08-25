@@ -49,7 +49,7 @@ Step 2:- Create a NAT Network. Right-click or press *ctrl+shift+c* and select th
 
 Step 3:- Name the NAT network with with following configuration.
 
-<img width="863" height="534" alt="image" src="https://github.com/user-attachments/assets/3176901e-a180-4cf0-bad2-b594bb337511" />
+<img width="1063" height="534" alt="image" src="https://github.com/user-attachments/assets/3176901e-a180-4cf0-bad2-b594bb337511" />
 
 
 

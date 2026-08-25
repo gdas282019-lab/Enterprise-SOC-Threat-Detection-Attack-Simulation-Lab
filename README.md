@@ -26,7 +26,7 @@ I started the project by designing a network architecture diagram to visualize t
 >
 > *Server 2022 ISO:* https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
 >
-> *Windows 10 ISO:* https://www.microsoft.com/en-us/software-download/windows10
+> *Windows 10 ISO:* https://drive.google.com/drive/folders/1NpJ5gKg4avlnsQI0WverCuzFix-jPOsK?usp=sharing
 >
 > *Ubuntu Server 24.04.2 LTS:* https://ubuntu.com/download/server
 >

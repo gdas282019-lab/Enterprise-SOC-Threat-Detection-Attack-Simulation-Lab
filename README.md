@@ -29,6 +29,8 @@ I started the project by designing a network architecture diagram to visualize t
 > *Windows 10 ISO:* https://www.microsoft.com/en-us/software-download/windows10
 >
 > *Ubuntu Server 24.04.2 LTS:* https://ubuntu.com/download/server
+>
+> *Splunk for linux:* https://download.splunk.com/products/splunk/releases/10.2.0/linux/splunk-10.2.0-d749cb17ea65-linux-amd64.deb
 
 Here I setup My all machine.
 

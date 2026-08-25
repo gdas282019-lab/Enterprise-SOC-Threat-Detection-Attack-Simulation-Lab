@@ -38,6 +38,19 @@ Here I setup My all machine.
 
 **Install & Configure Sysmon & Splunk on a Windows target machine (Windows Server) to enable centralized log collection, endpoint monitoring, security event analysis, and threat detection within the SOC environment.**
 
+Step 1:- Open virtualbox and go to Network click NAT network.
+<img width="485" height="333" alt="image" src="https://github.com/user-attachments/assets/8a27b01b-cb8f-4a5b-9477-30614e6703f4" />
+
+Step 2:- Create a NAT Network. Right-click or press *ctrl+shift+c* and select the ‘Create’ option.
+<img width="398" height="288" alt="image" src="https://github.com/user-attachments/assets/be0435dd-fa54-40ae-a838-9a9ff44b14ce" />
+
+
+
+
+
+
+
+
 
 
 

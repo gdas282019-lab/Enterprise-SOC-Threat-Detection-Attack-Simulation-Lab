@@ -3,7 +3,7 @@ A hands-on Enterprise SOC lab focused on attack simulation, endpoint monitoring,
 
 
 
-<img width="500" height="450" alt="image" src="https://github.com/user-attachments/assets/305d8138-5430-408f-b5e3-03dbdbaac226" />
+<img width="500" height="490" alt="image" src="https://github.com/user-attachments/assets/305d8138-5430-408f-b5e3-03dbdbaac226" />
 
 # Summary
 This project delivered practical experience in building and securing an enterprise-style cybersecurity environment, with a strong focus on attack simulation, detection, and incident analysis. 

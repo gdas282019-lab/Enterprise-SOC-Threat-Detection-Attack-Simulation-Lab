@@ -19,7 +19,8 @@ This project delivered practical experience in building and securing an enterpri
 - **Security Operations:** Applied practical SOC workflows covering monitoring, detection, analysis, and threat investigation.
 
 # Architecture
-<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/0c66808c-2dfb-4b1e-abe9-d39f710d1622" />
+
+<img width="650" height="485" alt="image" src="https://github.com/user-attachments/assets/0c66808c-2dfb-4b1e-abe9-d39f710d1622" />
 
 
 

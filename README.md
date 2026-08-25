@@ -22,18 +22,15 @@ I started the project by designing a network architecture diagram to visualize t
 
 # Tools & Tech
 
-
-* **Virtualization:** Oracle VirtualBox
-* **Target:** Windows 10, Splunk Universal Forwarder, Sysmon, Atomic Red Team
-* **Attacker:** Kali Linux VM, Hydra
-* **Splunk Server:** Ubuntu Server
-* **Active Directory:** Windows Server 2022, Splunk Universal Forwarder, Sysmon
-
-
-> *Video Link:* [YouTube](https://youtu.be/2cEj3bS5COQ?si=KM_NVhHe0UxIBesI)
+> *Video Link:* https://youtu.be/2cEj3bS5COQ?si=KM_NVhHe0UxIBesI
 >
-> *Oracle VirtualBox:* [Download](https://www.virtualbox.org/wiki/Downloads)
+> *Oracle VirtualBox:* https://www.virtualbox.org/wiki/Downloads
 >
+> *Server 2022 ISO:* https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+>
+> *Windows 10 ISO:* https://www.microsoft.com/en-us/software-download/windows10
+>
+> *Ubuntu Server 24.04.2 LTS:* https://ubuntu.com/download/server
 > *Server 2022 ISO:* [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
 >
 > *Windows 10 ISO:* [Download](https://www.microsoft.com/en-us/software-download/windows10)

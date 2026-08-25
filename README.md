@@ -28,7 +28,7 @@ I started the project by designing a network architecture diagram to visualize t
 
 > *Oracle VirtualBox:* https://www.virtualbox.org/wiki/Downloads
 >
-> *Server 2022 ISO:* https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+> *Windows Server 2022 ISO:* https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
 >
 > *Windows 10 ISO:* https://drive.google.com/drive/folders/1NpJ5gKg4avlnsQI0WverCuzFix-jPOsK?usp=sharing
 >

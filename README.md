@@ -17,6 +17,26 @@ This project delivered practical experience in building and securing an enterpri
 <img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/0c66808c-2dfb-4b1e-abe9-d39f710d1622" />
 
 
+
 I started the project by designing a network architecture diagram to visualize the overall lab environment and understand how each system would communicate. The diagram includes the **Active Directory server, Splunk server, Windows 10 target machine, and Kali Linux attacker machine**, along with their respective roles. Planning the architecture beforehand helped me organize the setup, understand the communication flow, and build the environment in a structured way that reflects a real-world enterprise network.
 
+# Tools & Tech
+
+
+* **Virtualization:** Oracle VirtualBox
+* **Target:** Windows 10, Splunk Universal Forwarder, Sysmon, Atomic Red Team
+* **Attacker:** Kali Linux VM, Hydra
+* **Splunk Server:** Ubuntu Server
+* **Active Directory:** Windows Server 2022, Splunk Universal Forwarder, Sysmon
+
+
+> *Video Link:* [YouTube](https://youtu.be/2cEj3bS5COQ?si=KM_NVhHe0UxIBesI)
+>
+> *Oracle VirtualBox:* [Download](https://www.virtualbox.org/wiki/Downloads)
+>
+> *Server 2022 ISO:* [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
+>
+> *Windows 10 ISO:* [Download](https://www.microsoft.com/en-us/software-download/windows10)
+>
+> *Ubuntu Server 24.04.2 LTS:* [Download](https://ubuntu.com/download/server)
 

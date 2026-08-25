@@ -22,8 +22,6 @@ I started the project by designing a network architecture diagram to visualize t
 
 # Tools & Tech
 
-> *Video Link:* https://youtu.be/2cEj3bS5COQ?si=KM_NVhHe0UxIBesI
->
 > *Oracle VirtualBox:* https://www.virtualbox.org/wiki/Downloads
 >
 > *Server 2022 ISO:* https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
@@ -31,9 +29,13 @@ I started the project by designing a network architecture diagram to visualize t
 > *Windows 10 ISO:* https://www.microsoft.com/en-us/software-download/windows10
 >
 > *Ubuntu Server 24.04.2 LTS:* https://ubuntu.com/download/server
-> *Server 2022 ISO:* [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
->
-> *Windows 10 ISO:* [Download](https://www.microsoft.com/en-us/software-download/windows10)
->
-> *Ubuntu Server 24.04.2 LTS:* [Download](https://ubuntu.com/download/server)
+
+Here I setup My all machine.
+
+# Objective
+
+**Install & Configure Sysmon & Splunk on a Windows target machine (Windows Server) to enable centralized log collection, endpoint monitoring, security event analysis, and threat detection within the SOC environment.**
+
+
+
 

@@ -20,7 +20,9 @@ This project delivered practical experience in building and securing an enterpri
 
 # Architecture
 
+
 <img width="650" height="485" alt="image" src="https://github.com/user-attachments/assets/0c66808c-2dfb-4b1e-abe9-d39f710d1622" />
+
 
 
 

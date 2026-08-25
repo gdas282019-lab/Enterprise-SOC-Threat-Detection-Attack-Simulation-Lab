@@ -13,5 +13,7 @@ This project delivered practical experience in building and securing an enterpri
 - **Incident Investigation:** Investigated security events and correlated endpoint and network logs to identify suspicious behavior and attack patterns.
 - **Security Operations:** Applied practical SOC workflows covering monitoring, detection, analysis, and threat investigation.
 
+# Architecture
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/0c66808c-2dfb-4b1e-abe9-d39f710d1622" />
 
 

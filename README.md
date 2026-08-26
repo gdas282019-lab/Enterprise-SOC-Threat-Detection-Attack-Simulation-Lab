@@ -98,7 +98,10 @@ Step 6:- This is the my ip of Ubuntu Server.
 
 Now we set our Static IP in Ubuntu that reflect our network ip
 <br>
-type **nano /etc/netplan/00-installer-config.yaml**
+type
+<br>
+**nano /etc/netplan/00-installer-config.yaml**
+<br>
 paste this:-
 
 ```yaml

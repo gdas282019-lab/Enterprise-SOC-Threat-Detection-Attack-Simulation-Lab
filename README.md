@@ -25,6 +25,12 @@ This project delivered practical experience in building and securing an enterpri
 
 I started the project by designing a network architecture diagram to visualize the overall lab environment and understand how each system would communicate. The diagram includes the **Active Directory server, Splunk server, Windows 10 target machine, and Kali Linux attacker machine**, along with their respective roles. Planning the architecture beforehand helped me organize the setup, understand the communication flow, and build the environment in a structured way that reflects a real-world enterprise network.
 
+# Key Requirements
+> i5 12th gen processor or equivalent.
+> 16 gb ram(DDR4)
+> 100 gb available storage
+
+
 # Tools & Tech
 
 > *Oracle VirtualBox:* https://www.virtualbox.org/wiki/Downloads
@@ -56,7 +62,14 @@ Step 3:- Name the NAT network with this following configuration.
 
 <img width="1063" height="300" alt="image" src="https://github.com/user-attachments/assets/3176901e-a180-4cf0-bad2-b594bb337511" />
 
+Step 4:- The following machines should have at least the specified RAM:
 
+> *kali*----> 3 GB(min)
+> *Windows Server*-----> 2gb(min)
+> *Ubuntu Server*---->4 gb(min)
+> *Windows Client PC*----> 4gb(min)
+
+<img width="289" height="262" alt="image" src="https://github.com/user-attachments/assets/e53aa826-066b-4e35-9ea2-018405e327ba" />
 
 
 

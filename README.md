@@ -76,9 +76,11 @@ Step 4:- The following machines should have at least the specified RAM:
 
 <img width="300" height="362" alt="image" src="https://github.com/user-attachments/assets/e53aa826-066b-4e35-9ea2-018405e327ba" />
 
-Step 5:- Make sure all 4 machines are in same nat network "Ad-project".
+Step 5:-Make sure all four machines are connected to the same NAT Network, **"Ad-project."**
 
 <img width="750" height="522" alt="image" src="https://github.com/user-attachments/assets/6e6c9b03-9ba2-43b5-9d39-f7e142438b98" />
+
+Step 6:- 
 
 
 

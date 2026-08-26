@@ -80,7 +80,31 @@ Step 5:-Make sure all four machines are connected to the same NAT Network, **"Ad
 
 <img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/6e6c9b03-9ba2-43b5-9d39-f7e142438b98" />
 
-Step 6:- 
+Step 6:- This is the my ip of Ubuntu Server.
+
+<img width="747" height="364" alt="image" src="https://github.com/user-attachments/assets/f0d9ed69-aa20-4525-b68d-f6f8ee2ddb96" />
+
+Now we set our Static IP in Ubuntu that reflect our network ip
+type **nano /etc/netplan/00-installer-config.yaml**
+paste this:-
+> *network:
+    ethernets:
+        enp0s3:
+            dhcp4: no
+            addresses: [192.168.10.10/24]
+            nameservers:
+                addresses: [8.8.8.8]
+            routes:
+                - to: default
+                  via: 192.168.10.1
+    version: 2 *
+
+<img width="856" height="232" alt="image" src="https://github.com/user-attachments/assets/5d9e50e6-9bdb-4d5a-aead-ccb78952a702" />
+
+Write the exact same code shown in the image, maintaining proper indentation.
+
+
+
 
 
 

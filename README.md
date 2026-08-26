@@ -141,11 +141,30 @@ My Ping is also work
 
 <img width="809" height="227" alt="image" src="https://github.com/user-attachments/assets/5014901c-ca07-4627-9106-3af2dfa1329f" />
 
+Step 8:- Now I will download splunk by following this commands.
+<br>
+```yaml
+wget -O splunk-10.2.0-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/10.2.0/linux/splunk-10.2.0-d749cb17ea65-linux-amd64.deb"
+```
+<br>
+<img width="1302" height="215" alt="image" src="https://github.com/user-attachments/assets/622d8539-aed3-41de-b02a-c5c52ae0eac8" />
+<br>
+*check the available storage before unpacking.*
+<br>
+<br>
+```yaml
+df -h /
+```
+<br>
+<br>
+<img width="579" height="200" alt="image" src="https://github.com/user-attachments/assets/d23d8f7d-5866-4d9f-9460-5512f1611b5a" />
+<br>
+```yaml
+ sudo dpkg -i splunk-10.2.0-linux-amd64.deb
+```
+<br>
 
-
-
-
-
+<img width="763" height="310" alt="image" src="https://github.com/user-attachments/assets/a6eb9457-4673-470d-b57e-65680f8de2a4" />
 
 
 

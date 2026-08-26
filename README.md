@@ -137,6 +137,10 @@ sudo netplan apply
 <br>
 <br>
 
+My Ping is also work
+
+<img width="809" height="227" alt="image" src="https://github.com/user-attachments/assets/5014901c-ca07-4627-9106-3af2dfa1329f" />
+
 
 
 

@@ -158,7 +158,7 @@ df -h /
 <br>
 
 <br>
-<img width="579" height="200" alt="image" src="https://github.com/user-attachments/assets/d23d8f7d-5866-4d9f-9460-5512f1611b5a" />
+<img width="879" height="250" alt="image" src="https://github.com/user-attachments/assets/d23d8f7d-5866-4d9f-9460-5512f1611b5a" />
 .
 
 ```yaml

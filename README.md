@@ -150,8 +150,8 @@ wget -O splunk-10.2.0-linux-amd64.deb "https://download.splunk.com/products/splu
 <img width="1302" height="215" alt="image" src="https://github.com/user-attachments/assets/622d8539-aed3-41de-b02a-c5c52ae0eac8" />
 <br>
 *check the available storage before unpacking.*
-
 <br>
+
 ```yaml
 df -h /
 ```
@@ -159,15 +159,14 @@ df -h /
 
 <br>
 <img width="579" height="200" alt="image" src="https://github.com/user-attachments/assets/d23d8f7d-5866-4d9f-9460-5512f1611b5a" />
-<br>
+.
 
-<br>
 ```yaml
  sudo dpkg -i splunk-10.2.0-linux-amd64.deb
 ```
 <br>
-
 <img width="763" height="310" alt="image" src="https://github.com/user-attachments/assets/a6eb9457-4673-470d-b57e-65680f8de2a4" />
+<br>
 
 
 

@@ -115,8 +115,6 @@ network:
 ```
 <br>
 <br>
-<br>
-<br>
 
 Write the exact same code shown in the image, maintaining proper indentation.
 
@@ -124,6 +122,20 @@ Write the exact same code shown in the image, maintaining proper indentation.
 
 <br>
 <br>
+
+Step 7:- Run this command.
+<br>
+```yaml
+sudo netplan apply
+```
+<br>
+<br>
+<img width="1084" height="307" alt="image" src="https://github.com/user-attachments/assets/98062c82-027b-42ae-9dc3-9e75361245d3" />
+<br>
+<br>
+
+
+
 
 
 

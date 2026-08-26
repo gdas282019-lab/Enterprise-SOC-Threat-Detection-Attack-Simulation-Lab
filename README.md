@@ -74,7 +74,7 @@ Step 4:- The following machines should have at least the specified RAM:
 > 
 > *Windows Client PC*----> 4gb(min)
 
-<img width="389" height="362" alt="image" src="https://github.com/user-attachments/assets/e53aa826-066b-4e35-9ea2-018405e327ba" />
+<img width="300" height="362" alt="image" src="https://github.com/user-attachments/assets/e53aa826-066b-4e35-9ea2-018405e327ba" />
 
 
 

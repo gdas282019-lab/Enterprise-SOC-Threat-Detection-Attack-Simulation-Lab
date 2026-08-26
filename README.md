@@ -27,7 +27,9 @@ I started the project by designing a network architecture diagram to visualize t
 
 # Key Requirements
 > i5 12th gen processor or equivalent.
+> 
 > 16 gb ram(DDR4)
+> 
 > 100 gb available storage
 
 

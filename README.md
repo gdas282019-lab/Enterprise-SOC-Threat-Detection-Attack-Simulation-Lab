@@ -83,7 +83,7 @@ Step 5:-Make sure all four machines are connected to the same NAT Network, **"Ad
 enable copy paste..............
 power on machine go to upper panel.
 
-<img width="597" height="100" alt="image" src="https://github.com/user-attachments/assets/212c5f27-4eb9-4b82-b5b0-cb0e714f6083" />
+<img width="697" height="100" alt="image" src="https://github.com/user-attachments/assets/212c5f27-4eb9-4b82-b5b0-cb0e714f6083" />
 
 
 click devices--> go to shared clipboard-->click Bidirectional

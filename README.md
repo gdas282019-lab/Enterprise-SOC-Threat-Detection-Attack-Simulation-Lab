@@ -129,7 +129,7 @@ Step 7:- Run this command.
 sudo netplan apply
 ```
 <br>
-<img width="884" height="407" alt="image" src="https://github.com/user-attachments/assets/98062c82-027b-42ae-9dc3-9e75361245d3" />
+<img width="1184" height="307" alt="image" src="https://github.com/user-attachments/assets/98062c82-027b-42ae-9dc3-9e75361245d3" />
 <br>
 <br>
 

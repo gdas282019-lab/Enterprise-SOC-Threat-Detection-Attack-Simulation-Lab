@@ -100,7 +100,8 @@ Now we set our Static IP in Ubuntu that reflect our network ip
 type **nano /etc/netplan/00-installer-config.yaml**
 paste this:-
 
- *network:
+```yaml
+network:
     ethernets:
         enp0s3:
             dhcp4: no
@@ -110,7 +111,8 @@ paste this:-
             routes:
                 - to: default
                   via: 192.168.10.1
-    version: 2 *
+    version: 2
+```
 
 <img width="856" height="232" alt="image" src="https://github.com/user-attachments/assets/5d9e50e6-9bdb-4d5a-aead-ccb78952a702" />
 

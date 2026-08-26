@@ -118,9 +118,14 @@ network:
 <br>
 <br>
 
+Write the exact same code shown in the image, maintaining proper indentation.
+
 <img width="856" height="232" alt="image" src="https://github.com/user-attachments/assets/5d9e50e6-9bdb-4d5a-aead-ccb78952a702" />
 
 Write the exact same code shown in the image, maintaining proper indentation.
+<br>
+<br>
+
 
 
 

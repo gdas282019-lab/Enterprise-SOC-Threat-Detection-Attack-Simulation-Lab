@@ -84,14 +84,17 @@ enable copy paste..............
 power on machine go to upper panel.
 
 <img width="597" height="100" alt="image" src="https://github.com/user-attachments/assets/212c5f27-4eb9-4b82-b5b0-cb0e714f6083" />
+
+
 click devices--> go to shared clipboard-->click Bidirectional
 
-<img width="681" height="356" alt="image" src="https://github.com/user-attachments/assets/82104abc-c198-4a83-9922-e5b65aebe1e6" />
+<img width="581" height="356" alt="image" src="https://github.com/user-attachments/assets/82104abc-c198-4a83-9922-e5b65aebe1e6" />
 
 
 Step 6:- This is the my ip of Ubuntu Server.
 
 <img width="747" height="364" alt="image" src="https://github.com/user-attachments/assets/f0d9ed69-aa20-4525-b68d-f6f8ee2ddb96" />
+
 
 Now we set our Static IP in Ubuntu that reflect our network ip
 type **nano /etc/netplan/00-installer-config.yaml**

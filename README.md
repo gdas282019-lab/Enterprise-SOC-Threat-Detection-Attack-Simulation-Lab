@@ -199,6 +199,9 @@ go to settings and about section clivk rename the pc.
 <img width="436" height="87" alt="image" src="https://github.com/user-attachments/assets/b06d574e-3039-4098-bc7e-7019e6de71d4" />
 <br>
 <br>
+<img width="501" height="313" alt="WhatsApp Image 2026-10-21 at 1 48 34 AM" src="https://github.com/user-attachments/assets/6dfa69e4-c36b-4ccb-b105-5946eb07536f" />
+<br>
+<br>
 
 
 

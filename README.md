@@ -1,7 +1,9 @@
 # Enterprise-SOC-Threat-Detection-Attack-Simulation-Lab
+<br>
+<br>
 A hands-on Enterprise SOC lab focused on attack simulation, endpoint monitoring, Splunk-based SIEM analysis, threat detection, incident investigation, and MITRE ATT&amp;CK mapping. Built to demonstrate practical SOC workflows and real-world cybersecurity detection techniques.
-
-
+<br>
+<br>
 
 <img width="500" height="490" alt="image" src="https://github.com/user-attachments/assets/305d8138-5430-408f-b5e3-03dbdbaac226" />
 
@@ -202,6 +204,35 @@ Go to Settings → About, then click Rename this PC.
 <img width="501" height="313" alt="WhatsApp Image 2026-10-21 at 1 48 34 AM" src="https://github.com/user-attachments/assets/6dfa69e4-c36b-4ccb-b105-5946eb07536f" />
 <br>
 <br>
+<br>
+Step 10:- Convert dynamic IP to static IPV4.
+<br>
+<br>
+Go to ethernet icon in taskbar--> click Network & Internet Settings.
+<br>
+<br>
+<img width="361" height="150" alt="WhatsApp Image 2026-10-21 at 1 58 41 AM" src="https://github.com/user-attachments/assets/36c77da3-2200-412c-9280-95628eefc04b" />
+<br>
+<br>
+Click Change adapter settings.
+<br>
+<br>
+<img width="1070" height="471" alt="image" src="https://github.com/user-attachments/assets/9a4215b9-2d43-48ae-977c-50f41a18883f" />
+<br>
+<br>
+Right click on Ethernet and go to properties section.
+<img width="274" height="334" alt="image" src="https://github.com/user-attachments/assets/1496ef92-eceb-4d08-86ad-9943cc51be58" />
+<br>
+<br>
+Go to the Properties tab and double-click Internet Protocol Version 4 (TCP/IPv4). Configure the settings according to your network architecture, then click OK.
+<br>
+<br>
+<img width="776" height="465" alt="image" src="https://github.com/user-attachments/assets/81b69dfa-0f55-460a-8c2c-78935d668f12" />
+<br>
+<br>
+
+
+
 
 
 

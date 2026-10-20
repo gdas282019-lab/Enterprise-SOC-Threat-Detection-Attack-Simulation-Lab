@@ -217,7 +217,7 @@ Go to ethernet icon in taskbar--> click Network & Internet Settings.
 Click Change adapter settings.
 <br>
 <br>
-<img width="1070" height="471" alt="image" src="https://github.com/user-attachments/assets/9a4215b9-2d43-48ae-977c-50f41a18883f" />
+<img width="670" height="471" alt="image" src="https://github.com/user-attachments/assets/9a4215b9-2d43-48ae-977c-50f41a18883f" />
 <br>
 <br>
 Right click on Ethernet and go to properties section.

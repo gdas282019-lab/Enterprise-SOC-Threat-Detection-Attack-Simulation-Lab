@@ -173,6 +173,7 @@ df -h /
 <br>
 Here I change my host IP according to the my ubuntu Ip Follow this command
 <br>
+
 ```yaml
  cd /opt/splunk/etc
 nano splunk-launch.conf

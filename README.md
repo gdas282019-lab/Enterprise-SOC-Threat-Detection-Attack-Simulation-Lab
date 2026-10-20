@@ -171,6 +171,17 @@ df -h /
 <img width="763" height="310" alt="image" src="https://github.com/user-attachments/assets/a6eb9457-4673-470d-b57e-65680f8de2a4" />
 <br>
 
+```yaml
+ cd /opt/splunk/etc
+nano splunk-launch.conf
+BINDIP = 0.0.0.0    #add this line
+```
+<br>
+<img width="612" height="264" alt="WhatsApp Image 2026-10-21 at 1 06 06 AM" src="https://github.com/user-attachments/assets/dfff98b4-2b40-4015-a9f1-c7f1fc2be855" />
+<br>
+
+
+
 
 
 

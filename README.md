@@ -221,6 +221,8 @@ Click Change adapter settings.
 <br>
 <br>
 Right click on Ethernet and go to properties section.
+<br>
+<br>
 <img width="274" height="334" alt="image" src="https://github.com/user-attachments/assets/1496ef92-eceb-4d08-86ad-9943cc51be58" />
 <br>
 <br>
@@ -229,6 +231,15 @@ Go to the Properties tab and double-click Internet Protocol Version 4 (TCP/IPv4)
 <br>
 <img width="776" height="465" alt="image" src="https://github.com/user-attachments/assets/81b69dfa-0f55-460a-8c2c-78935d668f12" />
 <br>
+<br>
+Now You can see here my static IP
+<br>
+<br>
+<img width="524" height="325" alt="WhatsApp Image 2026-10-21 at 2 16 45 AM" src="https://github.com/user-attachments/assets/f8d76424-6fd1-48a1-8d5b-58b042aceeac" />
+<br>
+<br>
+<br>
+# Installing/Configuring Sysmon and Splunk on the Windows 10 Target VM & Windows Server VM.
 <br>
 
 

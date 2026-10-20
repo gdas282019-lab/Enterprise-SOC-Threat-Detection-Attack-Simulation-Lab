@@ -239,9 +239,8 @@ Now You can see here my static IP
 <br>
 <br>
 <br>
-# Installing/Configuring Sysmon and Splunk on the Windows 10 Target VM & Windows Server VM.
-<br>
 
+# Installing/Configuring Sysmon and Splunk on the Windows 10 Target VM & Windows Server VM.
 
 
 

@@ -185,8 +185,9 @@ BINDIP = 0.0.0.0    #add this line
 <br>
 <br>
 Here I can access splunk from windows machine.
+,br>
 <br>
-<img width="984" height="504" alt="WhatsApp Image 2026-10-21 at 1 35 29 AM" src="https://github.com/user-attachments/assets/4601e719-6e83-4466-b64f-06bf7b22cb81" />
+<img width="884" height="404" alt="WhatsApp Image 2026-10-21 at 1 35 29 AM" src="https://github.com/user-attachments/assets/4601e719-6e83-4466-b64f-06bf7b22cb81" />
 <br>
 <br>
 

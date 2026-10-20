@@ -190,6 +190,16 @@ Here I can access splunk from windows machine.
 <img width="884" height="404" alt="WhatsApp Image 2026-10-21 at 1 35 29 AM" src="https://github.com/user-attachments/assets/4601e719-6e83-4466-b64f-06bf7b22cb81" />
 <br>
 <br>
+Step 9:- rename pc
+<br>
+<br>
+go to settings and about section clivk rename the pc.
+<br>
+<br>
+<img width="436" height="87" alt="image" src="https://github.com/user-attachments/assets/b06d574e-3039-4098-bc7e-7019e6de71d4" />
+<br>
+<br>
+
 
 
 

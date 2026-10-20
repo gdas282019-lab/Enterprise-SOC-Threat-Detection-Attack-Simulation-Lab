@@ -170,7 +170,9 @@ df -h /
 <br>
 <img width="763" height="310" alt="image" src="https://github.com/user-attachments/assets/a6eb9457-4673-470d-b57e-65680f8de2a4" />
 <br>
-
+<br>
+Here I change my host IP according to the my ubuntu Ip Follow this command
+<br>
 ```yaml
  cd /opt/splunk/etc
 nano splunk-launch.conf

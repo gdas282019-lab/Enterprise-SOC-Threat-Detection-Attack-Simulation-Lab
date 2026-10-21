@@ -333,12 +333,44 @@ Step 14: Search for the Sysmon Olaf configuration file on GitHub and download it
 <br>
 <br>
 >
-> *config file for Sysmon:* https://github.com/SwiftOnSecurity/sysmon-config
+> *config file for Sysmon:* https://github.com/SwiftOnSecurity/sysmon-config/blob/master/sysmonconfig-export.xml
 <br>
 <br>
-<img width="746" height="388" alt="WhatsApp Image 2026-10-21 at 12 19 59 PM" src="https://github.com/user-attachments/assets/acb3db4f-2335-4ade-90f6-2b747e96d5bc" />
+<img width="965" height="467" alt="WhatsApp Image 2026-10-21 at 5 03 35 PM" src="https://github.com/user-attachments/assets/b0e26e84-46f6-446a-9990-09954907b4a3" />
 <br>
 <br>
+Step 15:- Extract the Sysmon ZIP file and rename the downloaded configuration file to sysmonconfig.xml within the same folder.
+<br>
+<br>
+<img width="871" height="361" alt="WhatsApp Image 2026-10-21 at 5 07 01 PM" src="https://github.com/user-attachments/assets/ae649c13-4389-4fee-aa3f-aa0dd5ee4d15" />
+<br>
+<br>
+Step 16: Open Command Prompt and apply the configuration file using the command below.<br>
+sysmon64.exe -c sysmonconfig.xml
+<br>
+<br>
+<img width="647" height="299" alt="WhatsApp Image 2026-10-21 at 5 13 20 PM" src="https://github.com/user-attachments/assets/09a69c61-9ec8-4f69-900f-4ad71514e40c" />
+<br>
+<br>
+Step 17:- Open Command Prompt as Administrator, navigate to the Sysmon folder, and install Sysmon with the configuration file.<br>
+sysmon64.exe -i sysmonconfig.xml
+<br>
+<br>
+<img width="956" height="463" alt="WhatsApp Image 2026-10-21 at 5 19 17 PM" src="https://github.com/user-attachments/assets/8920fc1b-ddca-4bd7-9a76-9f78d24fdfff" />
+<br>
+<br>
+Step 18: Open PowerShell and verify that the Sysmon service is running.
+<br>
+<br>
+<img width="364" height="260" alt="WhatsApp Image 2026-10-21 at 5 23 11 PM" src="https://github.com/user-attachments/assets/44996457-6654-421a-b974-8fc170735b16" />
+
+<br>
+<br>
+
+
+
+
+
 
 
 

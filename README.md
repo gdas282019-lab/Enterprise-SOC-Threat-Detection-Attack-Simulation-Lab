@@ -229,7 +229,7 @@ Right click on Ethernet and go to properties section.
 Go to the Properties tab and double-click Internet Protocol Version 4 (TCP/IPv4). Configure the settings according to your network architecture, then click OK.
 <br>
 <br>
-<img width="776" height="465" alt="image" src="https://github.com/user-attachments/assets/81b69dfa-0f55-460a-8c2c-78935d668f12" />
+<img width="876" height="465" alt="image" src="https://github.com/user-attachments/assets/81b69dfa-0f55-460a-8c2c-78935d668f12" />
 <br>
 <br>
 Now You can see here my static IP
@@ -241,6 +241,107 @@ Now You can see here my static IP
 <br>
 
 # Installing/Configuring Sysmon and Splunk on the Windows 10 Target VM & Windows Server VM.
+<br>
+<br>
+Step 10:- Download Splunk Universal Forwarder
+<br>
+<br>
+<img width="822" height="295" alt="WhatsApp Image 2026-10-21 at 10 22 24 AM" src="https://github.com/user-attachments/assets/8bb10770-8970-48d5-9a06-2ed0fdbdd744" />
+<br>
+<br>
+Click Customize next.
+<br>
+<br>
+<img width="493" height="383" alt="WhatsApp Image 2026-10-21 at 10 25 47 AM" src="https://github.com/user-attachments/assets/fbf20e2c-4636-4ae1-a0f7-560cfe556ea5" />
+<br>
+<br>
+Step 11:- Set Username password for splunk Forwarder.
+<br>
+<br>
+<img width="491" height="384" alt="WhatsApp Image 2026-10-21 at 11 48 31 AM" src="https://github.com/user-attachments/assets/c0dd475d-96aa-4d57-b711-b31886d053d5" />
+<br>
+<br>
+Step 12:- Set IP and default port
+<br>
+I set here my splunk server IP
+<br>
+<br>
+<img width="490" height="386" alt="WhatsApp Image 2026-10-21 at 11 53 14 AM" src="https://github.com/user-attachments/assets/9e00eef0-cf25-4df0-b64a-60f61a40eb0c" />
+<br>
+<br>
+Click Install
+<br>
+<br>
+<img width="495" height="384" alt="WhatsApp Image 2026-10-21 at 11 53 48 AM" src="https://github.com/user-attachments/assets/b5e0dbd1-8582-452f-b37b-8787cae81543" />
+<br>
+<br>
+
+# Installing and configuring Sysmon
+<br>
+<br>
+
+**🔍What is Sysmon?**
+
+<br>
+
+When installed, **Sysmon** can log events like:
+
+- **Process creation**
+- **Network connections**
+- **File creation**
+- **Registry changes**
+- **Process injection**
+
+<br>
+<br>
+Step 13 :- Download Sysmon
+<br>
+<br>
+<img width="591" height="422" alt="WhatsApp Image 2026-10-21 at 12 08 43 PM" src="https://github.com/user-attachments/assets/d57e523d-8caf-482a-8ee3-9a82a2862338" />
+<br>
+<br>
+
+By default, _Sysmon_ does not record many events. To monitor more system activities, you need a proper configuration file.
+<br>
+<br>
+
+# 🛠️ What is OLAF Config?
+<br>
+OLAF config is a custom configuration file created by security expert Olaf Hartong. It tells Sysmon exactly what to log, and how to log only useful events while ignoring unnecessary ones.
+<br>
+<br>
+
+# 🔑 Why is OLAF config important?
+<br>
+
+### Without a Configuration File
+
+- Sysmon logs only basic events by default.
+- Many important attack activities may go undetected.
+- Excessive or irrelevant logs can make threat detection difficult.
+
+### With the OLAF Configuration File
+
+- Captures important attack behaviors, such as PowerShell abuse and privilege escalation.
+- Maps logged events to **MITRE ATT&CK techniques** used by attackers.
+- Improves threat detection and alerting in tools like **Splunk** and other **SIEMs**.
+
+<br>
+<br>
+
+Step 14: Search for the Sysmon Olaf configuration file on GitHub and download it.
+<br>
+<br>
+>
+> *config file for Sysmon:* https://github.com/SwiftOnSecurity/sysmon-config
+<br>
+<br>
+<img width="746" height="388" alt="WhatsApp Image 2026-10-21 at 12 19 59 PM" src="https://github.com/user-attachments/assets/acb3db4f-2335-4ade-90f6-2b747e96d5bc" />
+<br>
+<br>
+
+
+
 
 
 

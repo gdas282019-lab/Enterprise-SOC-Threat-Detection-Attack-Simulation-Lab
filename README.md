@@ -451,6 +451,143 @@ Step 21: Change the Log On As option to This account, then restart the SplunkFor
 <img width="1044" height="100" alt="WhatsApp Image 2026-10-22 at 5 04 37 PM" src="https://github.com/user-attachments/assets/0d7f3294-4866-4ff5-9739-c12748e4873b" />
 <br>
 <br>
+Now, Sysmon and Splunk Universal Forwarder are installed and configured with the updated configuration file.
+<br>
+<br>
+Step 22: On the Splunk server, go to Settings → Indexes to create an index for storing endpoint logs. Then, navigate to Settings → Forwarding and Receiving → Configure Receiving to enable the receiving port for incoming logs.
+<br>
+<br>
+<img width="611" height="302" alt="WhatsApp Image 2026-10-22 at 5 17 44 PM" src="https://github.com/user-attachments/assets/e7bf8453-8694-4335-a765-e784a4a1a253" />
+<br>
+<br>
+You can see this all indexes click on new indexes
+<br>
+<br>
+<img width="1360" height="376" alt="WhatsApp Image 2026-10-22 at 5 20 06 PM" src="https://github.com/user-attachments/assets/a259737d-fadb-4fe6-983a-0fea321701e0" />
+<br>
+<br>
+ Create a new index named wineventlog, then create a second index named sysmon,
+and save both.
+<br>
+<br>
+<img width="585" height="425" alt="WhatsApp Image 2026-10-22 at 7 08 17 PM" src="https://github.com/user-attachments/assets/10f82123-12bc-4a34-abd2-6a216ad08b6a" />
+<br>
+<br>
+<img width="461" height="429" alt="WhatsApp Image 2026-10-23 at 1 08 15 AM" src="https://github.com/user-attachments/assets/a761e57f-34c7-45e2-b71a-537d645a00fb" />
+This is my indexes.
+<br>
+<br>
+<img width="1148" height="60" alt="WhatsApp Image 2026-10-23 at 1 10 05 AM" src="https://github.com/user-attachments/assets/beca2874-793c-47ca-8593-2bc0ee872ec6" />
+<br>
+<br>
+now we enable our splunk server to recieve our data.<br>
+click on settings forwarding and recievings.
+<br>
+<br>
+<img width="1036" height="209" alt="image" src="https://github.com/user-attachments/assets/f6436dd5-ceb0-40b6-ad35-759f3b8c7f9b" />
+<br>
+<br>
+This is the default port hit save
+<br>
+<br>
+<img width="1363" height="253" alt="WhatsApp Image 2026-10-22 at 5 40 31 PM" src="https://github.com/user-attachments/assets/e40d4819-dbc4-4076-a9fe-867cb03d705e" />
+<br>
+<br>
+Go the top select search and reporting
+<br>
+<br>
+<img width="360" height="367" alt="WhatsApp Image 2026-10-22 at 6 17 14 PM" src="https://github.com/user-attachments/assets/e8b2f275-a544-410b-81f6-63193fd29e76" />
+<br>
+<br>
+Run the following SPL query to identify user account creation events (Event Code
+4720) across all indexes.<br>
+index=sysmon EventCode=7040
+<br>
+<br>
+<img width="1362" height="491" alt="WhatsApp Image 2026-10-23 at 1 25 50 AM" src="https://github.com/user-attachments/assets/aebaf3ec-4d8d-4f49-916b-c3fb51ae6043" />
+<br>
+<br>
+**Repeat the same process to install and configure Sysmon and Splunk Universal Forwarder on the Target Windows VM.**
+<br>
+<br>
+After successfully installing and configuring Splunk Universal Forwarder and Sysmon on the Target PC, you should be able to see two hosts in the Splunk search results.
+<br>
+<br>
+<img width="1333" height="253" alt="WhatsApp Image 2026-10-23 at 1 44 40 AM" src="https://github.com/user-attachments/assets/8c1857e7-e9bb-42bc-acfc-beec438c717f" />
+<br>
+<br>
+# Active Directory Setup
+
+## 1. Install and Configure Windows Server 2022
+
+Install and configure Windows Server 2022 to prepare the environment for Active Directory.
+
+## 2. Promote the Server to a Domain Controller
+
+Install the **Active Directory Domain Services (AD DS)** role and promote the server to a domain controller.
+
+## 3. Join the Target Windows PC to the Domain
+
+Join the target Windows PC to the newly created Active Directory domain.
+
+## 4. Configure a Static IP Address
+
+Step 23:- First, configure a static IP address on the Windows Server.
+
+- Click the **Network** icon in the taskbar.
+- Open **Network & Internet settings**.
+- Navigate to the network adapter settings.
+- Configure the IPv4 address, subnet mask, default gateway, and preferred DNS server as required.
+<br>
+<br>
+<img width="361" height="140" alt="WhatsApp Image 2026-10-23 at 1 19 34 AM" src="https://github.com/user-attachments/assets/5e3b3da8-3f78-440f-95e0-37585dab6924" />
+<br>
+<br>
+click on change adapter option.
+<br>
+<br>
+<img width="432" height="269" alt="WhatsApp Image 2026-10-23 at 1 30 07 AM" src="https://github.com/user-attachments/assets/47720369-9ecb-4f79-b3ea-593124fbd8a1" />
+<br>
+<br>
+set static ip
+<br>
+<br>
+<img width="405" height="456" alt="WhatsApp Image 2026-10-23 at 1 58 20 AM" src="https://github.com/user-attachments/assets/26b2e573-dc38-40b4-b933-c6d6a8492073" />
+<br>
+<br>
+see the ip of machine
+<br>
+<br>
+<img width="521" height="484" alt="WhatsApp Image 2026-10-23 at 2 00 00 AM" src="https://github.com/user-attachments/assets/eb3fa42b-ed00-4d76-b494-ce38c46334de" />
+<br>
+<br>
+Step 24:- Go to Server Manager and click add role.
+<br>
+<br>
+<img width="846" height="345" alt="WhatsApp Image 2026-10-23 at 2 03 21 AM" src="https://github.com/user-attachments/assets/5b52fa82-1903-4f8f-bba7-6e121cbc56dd" />
+<br>
+<br>
+select accordings to the diagram click on next.
+<br>
+on Server roles section click add features. and click next upto confirmation then hit install
+<br>
+<br>
+<img width="1082" height="525" alt="image" src="https://github.com/user-attachments/assets/5d61133c-29d9-4cd5-a495-469d0814e11b" />
+<br>
+<br>
+After end of install you can see this.
+<br>
+<br>
+<img width="786" height="559" alt="WhatsApp Image 2026-10-23 at 2 27 34 AM" src="https://github.com/user-attachments/assets/f724404f-12ca-4b84-aa51-8a4db37c8c85" />
+<br>
+<br>
+Then click on triangle means danger sign and click on blue painted.
+<br>
+<br>
+<img width="673" height="358" alt="WhatsApp Image 2026-10-23 at 2 29 24 AM" src="https://github.com/user-attachments/assets/e21c9802-b586-4d7c-a6fb-c6f5318279e5" />
+<br>
+<br>
+
 
 
 

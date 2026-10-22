@@ -377,6 +377,8 @@ C:\Program Files\SplunkUniversalForwarder\etc\system\local
 <br>
 <br>
 Step 19:- in inputs.conf file paste this.
+<br>
+<br>
 
 ```yaml
 [WinEventLog://Security]
@@ -404,6 +406,29 @@ renderXml = true
 <br>
 <br>
 <img width="467" height="440" alt="WhatsApp Image 2026-10-22 at 2 18 45 PM" src="https://github.com/user-attachments/assets/53cbe0dd-66b7-4c9a-aa8b-0ba2659d6d30" />
+<br>
+<br>
+This configuration is used in Windows Server to collect important Windows Event Logs and send them to a SIEM like Splunk, usually through the Splunk Universal Forwarder.
+<br>
+<br>
+
+## 🔹 Explanation
+
+- `[WinEventLog://Application]` – Collects application-related logs, such as crashes and errors.
+- `[WinEventLog://Security]` – Collects security logs, such as login attempts and user account changes.
+- `[WinEventLog://System]` – Collects system logs, such as shutdowns and service issues.
+- `[WinEventLog://Microsoft-Windows-Sysmon/Operational]` – Collects Sysmon logs, which are essential for detecting attacker activities, such as process creation and network connections.
+
+All logs are sent to the `endpoint` index in Splunk.
+
+`renderXml = true` ensures that logs are collected in XML format, providing detailed event information and supporting MITRE ATT&CK mapping.
+<br>
+<br>
+Step 20:-Step 15: Press Win + R, type `services.msc`, and press Enter. In the Services window, search for SplunkForwarder.
+<br>
+<br>
+<img width="857" height="294" alt="WhatsApp Image 2026-10-22 at 2 30 36 PM" src="https://github.com/user-attachments/assets/6ef772ad-0b21-484d-a11b-ff94b050c743" />
+
 <br>
 <br>
 

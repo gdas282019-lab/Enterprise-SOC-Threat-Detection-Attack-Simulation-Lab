@@ -424,11 +424,10 @@ All logs are sent to the `endpoint` index in Splunk.
 `renderXml = true` ensures that logs are collected in XML format, providing detailed event information and supporting MITRE ATT&CK mapping.
 <br>
 <br>
-Step 20:-Step 15: Press Win + R, type `services.msc`, and press Enter. In the Services window, search for SplunkForwarder.
+Step 20:-Press Win + R, type `services.msc`, and press Enter. In the Services window, search for SplunkForwarder.
 <br>
 <br>
 <img width="857" height="294" alt="WhatsApp Image 2026-10-22 at 2 30 36 PM" src="https://github.com/user-attachments/assets/6ef772ad-0b21-484d-a11b-ff94b050c743" />
-
 <br>
 <br>
 

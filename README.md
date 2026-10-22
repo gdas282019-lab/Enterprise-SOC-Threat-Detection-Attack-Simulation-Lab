@@ -362,11 +362,50 @@ sysmon64.exe -i sysmonconfig.xml
 Step 18: Open PowerShell and verify that the Sysmon service is running.
 <br>
 <br>
-<img width="364" height="260" alt="WhatsApp Image 2026-10-21 at 5 23 11 PM" src="https://github.com/user-attachments/assets/44996457-6654-421a-b974-8fc170735b16" />
-
+<img width="580" height="260" alt="WhatsApp Image 2026-10-21 at 5 23 11 PM" src="https://github.com/user-attachments/assets/44996457-6654-421a-b974-8fc170735b16" />
 <br>
 <br>
+Step 19:- Navigate to the Splunk Universal Forwarder configuration folder and create the
+inputs.conf file.<br>
 
+```yaml
+C:\Program Files\SplunkUniversalForwarder\etc\system\local
+```
+<br>
+<br>
+<img width="778" height="328" alt="WhatsApp Image 2026-10-22 at 2 16 36 PM" src="https://github.com/user-attachments/assets/31df9de1-2001-440e-9a2a-5703ca62bd37" />
+<br>
+<br>
+Step 19:- in inputs.conf file paste this.
+
+```yaml
+[WinEventLog://Security]
+disabled = 0
+index = wineventlog
+sourcetype = WinEventLog:Security
+renderXml = false
+[WinEventLog://System]
+disabled = 0
+index = wineventlog
+sourcetype = WinEventLog:System
+renderXml = false
+[WinEventLog://Application]
+disabled = 0
+index = wineventlog
+sourcetype = WinEventLog:Application
+renderXml = false
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+disabled = 0
+index = sysmon
+sourcetype = XmlWinEventLog:Microsoft-WindowsSysmon/Operational
+renderXml = true
+
+```
+<br>
+<br>
+<img width="467" height="440" alt="WhatsApp Image 2026-10-22 at 2 18 45 PM" src="https://github.com/user-attachments/assets/53cbe0dd-66b7-4c9a-aa8b-0ba2659d6d30" />
+<br>
+<br>
 
 
 

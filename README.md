@@ -309,10 +309,10 @@ By default, _Sysmon_ does not record many events. To monitor more system activit
 <br>
 OLAF config is a custom configuration file created by security expert Olaf Hartong. It tells Sysmon exactly what to log, and how to log only useful events while ignoring unnecessary ones.
 <br>
-<br>
 
 # 🔑 Why is OLAF config important?
 <br>
+OLAF config is a custom configuration file created by security expert Olaf Hartong. It tells Sysmon exactly what to log, and how to log only useful events while ignoring unnecessary ones.<br>
 
 ### Without a Configuration File
 
@@ -428,6 +428,27 @@ Step 20:-Press Win + R, type `services.msc`, and press Enter. In the Services wi
 <br>
 <br>
 <img width="857" height="294" alt="WhatsApp Image 2026-10-22 at 2 30 36 PM" src="https://github.com/user-attachments/assets/6ef772ad-0b21-484d-a11b-ff94b050c743" />
+<br>
+<br>
+ By default, the Log On As account is set to NT Service.
+<br>
+<br>
+<img width="396" height="466" alt="WhatsApp Image 2026-10-22 at 4 59 37 PM" src="https://github.com/user-attachments/assets/b9217178-d00f-40b1-9d31-10ea9ab181fc" />
+<br>
+<br>
+Step 21: Change the Log On As option to This account, then restart the SplunkForwarder service.
+<br>
+<br>
+<img width="416" height="475" alt="WhatsApp Image 2026-10-22 at 5 02 43 PM" src="https://github.com/user-attachments/assets/519234ac-4cb3-4217-9658-5ccb562011a8" />
+<br>
+<br>
+<img width="555" height="268" alt="WhatsApp Image 2026-10-22 at 5 03 35 PM" src="https://github.com/user-attachments/assets/6a6daaac-34a0-400a-aa13-c928989760cd" />
+<br>
+<br>
+`Now You can see my changes`
+<br>
+<br>
+<img width="1044" height="100" alt="WhatsApp Image 2026-10-22 at 5 04 37 PM" src="https://github.com/user-attachments/assets/0d7f3294-4866-4ff5-9739-c12748e4873b" />
 <br>
 <br>
 

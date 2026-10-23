@@ -587,9 +587,87 @@ Then click on triangle means danger sign and click on blue painted.
 <img width="673" height="358" alt="WhatsApp Image 2026-10-23 at 2 29 24 AM" src="https://github.com/user-attachments/assets/e21c9802-b586-4d7c-a6fb-c6f5318279e5" />
 <br>
 <br>
+Step 24:- Set our new domain **mydfir.local**.
+<br>
+<br>
+<img width="760" height="557" alt="WhatsApp Image 2026-10-23 at 10 32 12 AM" src="https://github.com/user-attachments/assets/23df3771-fc95-4882-b7d2-1e89d8770840" />
+<br>
+<br>
+set password for Domain Controller.
+<br>
+<br>
+<img width="747" height="551" alt="WhatsApp Image 2026-10-23 at 10 35 16 AM" src="https://github.com/user-attachments/assets/8057f471-9000-4846-a24d-06bb07f5b9d7" />
+<br>
+<br>
+after click on next,next,next and install it then restart the system.
+<br>
+you can see my domain name.
+<br>
+<br>
+<img width="1364" height="612" alt="WhatsApp Image 2026-10-23 at 1 50 27 PM" src="https://github.com/user-attachments/assets/15826868-ba57-4f80-aaeb-2f6958814145" />
+<br>
+<br>
+click on blue painted to add user and group.
+<br>
+<br>
+<img width="1247" height="280" alt="WhatsApp Image 2026-10-23 at 1 59 25 PM" src="https://github.com/user-attachments/assets/19da5bf4-0c61-49e2-b624-757625ac6b8f" />
+<br>
+<br>
+right click on domain click on new then click organizatonal unit.
+<br>
+<br>
+<img width="757" height="527" alt="WhatsApp Image 2026-10-23 at 2 01 27 PM" src="https://github.com/user-attachments/assets/717e1d5a-702c-4608-b8a6-965f174932ff" />
+<br>
+<br>
+Give the name IT
+<br>
+<br>
+<img width="440" height="378" alt="WhatsApp Image 2026-10-23 at 2 02 46 PM" src="https://github.com/user-attachments/assets/0633ee2c-6914-46fe-9d05-f06411e0eb5e" />
+<br>
+<br>
+Fill the Details of New User.
+<br>
+<br>
+<img width="440" height="371" alt="WhatsApp Image 2026-10-23 at 2 04 16 PM" src="https://github.com/user-attachments/assets/d5c768eb-1544-4621-bff0-7e9c9ffc5e03" />
+<br>
+Set Password for User gdas.
+<br>
+<br>
+<img width="436" height="366" alt="WhatsApp Image 2026-10-23 at 2 08 28 PM" src="https://github.com/user-attachments/assets/4c7e5508-025d-4984-a378-04ec6f48213b" />
+<br>
+<br>
+Create another **Organizational Unit** _HR_.
+<br>
+<br>
+<img width="723" height="500" alt="WhatsApp Image 2026-10-23 at 2 15 11 PM" src="https://github.com/user-attachments/assets/ef3dec98-f037-426f-8a83-cdb8da469b33" />
+<br>
+<br>
 
+# Now we move the target Windows machine to join our newly Domain created mydfir.local.
+<br>
+Go to **Network & Internet Settings**  then click change Adapter option.
+<br>
+<img width="900" height="567" alt="WhatsApp Image 2026-10-23 at 2 22 16 PM" src="https://github.com/user-attachments/assets/e6149c43-b5ef-44ae-a8e0-df1a07760da3" />
+<br>
+<br>
+Change the DNS Server.
+<br>
+<br>
+<img width="1356" height="601" alt="WhatsApp Image 2026-10-23 at 2 25 18 PM" src="https://github.com/user-attachments/assets/3fde0879-a0c8-4c0b-9c64-ef193e0e5feb" />
+<br>
+<br>
+Now you can see my New IP configuration.
+<br>
+<br>
+<img width="770" height="456" alt="WhatsApp Image 2026-10-23 at 2 28 05 PM" src="https://github.com/user-attachments/assets/0b35da46-a034-4727-a5df-b74aa45fb22c" />
+<br>
+<br>
+Go to the Pc —> View Advance System settings--> Click Computer Name
+<br>
+<br>
 
-
+<br>
+<br>
 
 
 

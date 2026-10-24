@@ -669,6 +669,10 @@ Since *Windows 10 Home Single Language*  Edition does not support joining a doma
 <img width="443" height="272" alt="WhatsApp Image 2026-10-23 at 3 00 51 PM" src="https://github.com/user-attachments/assets/c5d22329-29b0-45d1-b27c-4a1763359f8c" />
 <br>
 <br>
+
+# Upgrade Windows 10 Home Single Language to Proffessional Edition.
+<br>
+<br>
 Open powershell run as administrator and type the following command.
 <br>
 <br>
@@ -704,6 +708,40 @@ The System will restart automatically.
 <img width="458" height="414" alt="WhatsApp Image 2026-10-24 at 9 36 04 PM" src="https://github.com/user-attachments/assets/39dd8325-1b62-4e8a-a81e-6c6faba73805" />
 <br>
 <br>
+
+Step 25:- Go to **About your PC.** then click Advanced system settings.
+<br>
+<br>
+In the Computer Name section, you will see the relevant settings.
+<br>
+<br>
+<img width="411" height="463" alt="WhatsApp Image 2026-10-25 at 12 35 43 AM" src="https://github.com/user-attachments/assets/6d6fff71-ed2b-4b14-88b6-fee5429160c5" />
+<br>
+<br>
+Click Change
+<br>
+<br>
+<img width="407" height="468" alt="WhatsApp Image 2026-10-25 at 12 38 13 AM" src="https://github.com/user-attachments/assets/92372811-54aa-4300-b126-93a2bd45dc8d" />
+<br>
+<br>
+Put The administrator account credentials of your windows server.
+<br>
+<br>
+<img width="454" height="339" alt="WhatsApp Image 2026-10-25 at 12 46 24 AM" src="https://github.com/user-attachments/assets/e058f30f-2a42-4c67-a4c0-52737b4bc486" />
+<br>
+<br>
+<img width="324" height="171" alt="WhatsApp Image 2026-10-25 at 12 48 07 AM" src="https://github.com/user-attachments/assets/e800a54d-4a9f-4b4e-b0b3-bcf753bb5d9a" />
+<br>
+<br>
+Then Restart Your PC(Target Machine)
+<br>
+put the user logon name i.e jdoe and password.
+<br>
+<img width="1365" height="622" alt="WhatsApp Image 2026-10-25 at 1 04 54 AM" src="https://github.com/user-attachments/assets/92f7e151-efd2-42cf-b4ee-9dfd19c46524" />
+<br>
+<br>
+
+
 
 
 

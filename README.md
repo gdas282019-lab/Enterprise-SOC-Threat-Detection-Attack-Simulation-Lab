@@ -662,14 +662,48 @@ Now you can see my New IP configuration.
 <img width="770" height="456" alt="WhatsApp Image 2026-10-23 at 2 28 05 PM" src="https://github.com/user-attachments/assets/0b35da46-a034-4727-a5df-b74aa45fb22c" />
 <br>
 <br>
-Go to the Pc —> View Advance System settings--> Click Computer Name
+
+Since *Windows 10 Home Single Language*  Edition does not support joining a domain, we need to upgrade it to Windows 10 Pro.
+<br>
+<br>
+<img width="443" height="272" alt="WhatsApp Image 2026-10-23 at 3 00 51 PM" src="https://github.com/user-attachments/assets/c5d22329-29b0-45d1-b27c-4a1763359f8c" />
+<br>
+<br>
+Open powershell run as administrator and type the following command.
 <br>
 <br>
 
+```yaml
+irm https://get.activated.win  | iex
+```
 <br>
 <br>
-
-
+<img width="469" height="166" alt="WhatsApp Image 2026-10-24 at 9 23 36 PM" src="https://github.com/user-attachments/assets/6cc05a97-734e-48b5-9f61-0a3061b9b179" />
+<br>
+<br>
+you can see this window.
+<br>
+<br>
+<img width="579" height="525" alt="WhatsApp Image 2026-10-24 at 9 24 21 PM" src="https://github.com/user-attachments/assets/bdf62d81-6bad-443b-8527-71018b5b516f" />
+<br>
+choose [6].
+<br>
+<br>
+Press [2] and hit enter then continue.[1]
+<br>
+<br>
+<img width="790" height="354" alt="WhatsApp Image 2026-10-24 at 9 26 08 PM" src="https://github.com/user-attachments/assets/d17ea665-2a41-4f05-89c1-29daa4a89143" />
+<br>
+<br>
+The System will restart automatically.
+<br>
+<br>
+<img width="1243" height="457" alt="WhatsApp Image 2026-10-24 at 9 30 24 PM" src="https://github.com/user-attachments/assets/1f40072d-6807-416c-995f-ae8c86d3bf8a" />
+<br>
+<br>
+<img width="458" height="414" alt="WhatsApp Image 2026-10-24 at 9 36 04 PM" src="https://github.com/user-attachments/assets/39dd8325-1b62-4e8a-a81e-6c6faba73805" />
+<br>
+<br>
 
 
 

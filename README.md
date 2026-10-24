@@ -741,11 +741,103 @@ put the user logon name i.e jdoe and password.
 <br>
 <br>
 
+## 🔐 MITRE ATT&CK T1110.001 — Brute Force: Password Guessing
 
+This technique involves an attacker repeatedly guessing usernames and passwords to gain unauthorized access to user accounts. Attackers may use common or leaked credentials with automated tools or scripts to attempt logins to services such as:
 
+- **SSH**
+- **RDP**
+- **FTP**
+- **Web Login Portals**
 
+If successful, the attacker can gain access to the target system and potentially move laterally across the network.
 
+### 🧪 Attack Simulation and Detection
 
+1. **Set Up Active Directory** – Configure the Windows Server and target machine.
+2. **Perform a Brute-Force Attack** – Simulate repeated login attempts in the lab environment.
+3. **View Telemetry in Splunk** – Analyze authentication logs to identify suspicious login attempts.
+4. **Set Up and Install ART** – Configure the Atomic Red Team (ART) framework to simulate relevant attack techniques.
+<br>
+<br>
+
+**Step 26:** Switch to the attacking virtual machine, i.e., the Kali Linux machine.
+<br>
+<br>
+Right click on network to setup our static IP on kali network.
+<br>
+<br>
+<img width="322" height="195" alt="WhatsApp Image 2026-10-25 at 1 47 36 AM" src="https://github.com/user-attachments/assets/a394024c-f9b6-4483-a88b-3fe876aee945" />
+<br>
+<br>
+click on white box settings then wiredCOnnection1
+<br>
+change DHCP To static IP
+<br>
+<img width="705" height="545" alt="WhatsApp Image 2026-10-25 at 1 52 46 AM" src="https://github.com/user-attachments/assets/621d188d-fe48-40dc-bce1-0c4df6083795" />
+<br>
+<br>
+Add IPV4 and save this cinfiguartion.
+<br>
+<br>
+<img width="706" height="542" alt="WhatsApp Image 2026-10-25 at 1 54 47 AM" src="https://github.com/user-attachments/assets/8b0fb8ec-4567-4a98-83d5-8da5202f9cba" />
+<br>
+<br>
+Disconnect and clicl Wired connection1
+<br>
+<br>
+<img width="237" height="205" alt="WhatsApp Image 2026-10-25 at 1 56 50 AM" src="https://github.com/user-attachments/assets/2e0e9d64-12c4-4e6d-809d-13d0bd3c4d36" />
+<br>
+<br>
+Now IP is successfully set
+<br>
+<br>
+<img width="629" height="268" alt="WhatsApp Image 2026-10-25 at 1 59 13 AM" src="https://github.com/user-attachments/assets/118ebb40-350b-44b8-a423-8c92777f34ed" />
+<br>
+<br>
+Step 27:- Create a directory and run thi command below.
+<br>
+<br>
+
+```yaml
+sudo apt update
+sudo apt-get install -y crowbar 
+```
+<br>
+<br>
+<img width="805" height="471" alt="WhatsApp Image 2026-10-25 at 2 06 13 AM" src="https://github.com/user-attachments/assets/97f56ef8-5e10-4d13-85b6-e8f270b31083" />
+<br>
+<br>
+Follow this steps.
+<br>
+<br>
+<img width="1222" height="392" alt="WhatsApp Image 2026-10-25 at 2 09 06 AM" src="https://github.com/user-attachments/assets/016bb857-4dc4-4523-8871-5c3056f8fdce" />
+<br>
+<br>
+
+I selected the first 20 passwords from the `rockyou.txt` file and saved them in a new file named `passwords.txt` for the brute-force attack. I also added the passwords configured for the Target PC, the Active Directory server, and the two user accounts created in Active Directory.
+<br>
+<br>
+<img width="399" height="438" alt="WhatsApp Image 2026-10-25 at 2 10 40 AM" src="https://github.com/user-attachments/assets/5d5955e5-b9e2-4149-8fec-b7492deb5d51" />
+
+<br>
+<br>
+<img width="374" height="118" alt="WhatsApp Image 2026-10-25 at 2 13 27 AM" src="https://github.com/user-attachments/assets/18ed84db-cb9c-40d4-93e5-d250805a6ccc" />
+<br>
+<br>
+
+Add your original passwords at the end of the `passwords.txt` file.
+<br>
+<br>
+<img width="348" height="404" alt="WhatsApp Image 2026-10-25 at 2 15 59 AM" src="https://github.com/user-attachments/assets/34a5f096-cbfe-481a-83e6-4a9014432eba" />
+<br>
+<br>
+Step 28:- then I enabled remote desktop for both active directory users on the target machine.
+<br>
+<br>
+
+<br>
+<br>
 
 
 

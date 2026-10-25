@@ -850,7 +850,6 @@ Due to Windows updates and enhanced RDP brute-force protections, Crowbar may not
 
 # Conclusion & Lessons Leraned
 <br>
-## Conclusion
 
 This project involved simulating security events and analyzing Windows telemetry in Splunk to identify suspicious activities and potential threats. By investigating failed logins and monitoring user account activities, I developed SPL queries to detect anomalies and understand their relevance to MITRE ATT&CK techniques.<br>
 <br>

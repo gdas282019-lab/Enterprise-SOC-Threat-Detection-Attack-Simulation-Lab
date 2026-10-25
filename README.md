@@ -757,7 +757,6 @@ If successful, the attacker can gain access to the target system and potentially
 1. **Set Up Active Directory** – Configure the Windows Server and target machine.
 2. **Perform a Brute-Force Attack** – Simulate repeated login attempts in the lab environment.
 3. **View Telemetry in Splunk** – Analyze authentication logs to identify suspicious login attempts.
-4. **Set Up and Install ART** – Configure the Atomic Red Team (ART) framework to simulate relevant attack techniques.
 <br>
 <br>
 
@@ -835,13 +834,27 @@ Add your original passwords at the end of the `passwords.txt` file.
 Step 28:- then I enabled remote desktop for both active directory users on the target machine.
 <br>
 <br>
+<img width="546" height="471" alt="WhatsApp Image 2026-10-25 at 10 16 26 PM" src="https://github.com/user-attachments/assets/f9d0514b-c966-4869-96b7-353e7addd032" />
 
 <br>
 <br>
+<img width="695" height="145" alt="WhatsApp Image 2026-10-26 at 2 19 23 AM" src="https://github.com/user-attachments/assets/e7ef3e56-14ec-4ef9-8c86-5cf922deddd0" />
+<br>
+<br>
+Due to Windows updates and enhanced RDP brute-force protections, Crowbar may not work as expected. However, if a brute-force attempt generates failed logon events, they should be recorded in Splunk with Event ID 4625, provided Windows auditing and log forwarding are configured correctly.
+<br>
+<br>
+<img width="1355" height="453" alt="WhatsApp Image 2026-10-26 at 2 25 16 AM" src="https://github.com/user-attachments/assets/f3b9c660-598d-4196-84db-4628b4edbca1" />
+<br>
+<br>
 
+# Conclusion & Lessons Leraned
+<br>
+## Conclusion
 
-
-
+This project involved simulating security events and analyzing Windows telemetry in Splunk to identify suspicious activities and potential threats. By investigating failed logins and monitoring user account activities, I developed SPL queries to detect anomalies and understand their relevance to MITRE ATT&CK techniques.<br>
+<br>
+Overall, this hands-on experience strengthened my understanding of Active Directory, SIEM monitoring, security event analysis, and incident detection, bridging theoretical cybersecurity concepts with practical SOC workflows.
 
 
 

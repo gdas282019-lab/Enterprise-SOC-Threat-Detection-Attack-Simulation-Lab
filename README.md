@@ -847,32 +847,6 @@ Due to Windows updates and enhanced RDP brute-force protections, Crowbar may not
 <img width="1355" height="453" alt="WhatsApp Image 2026-10-26 at 2 25 16 AM" src="https://github.com/user-attachments/assets/f3b9c660-598d-4196-84db-4628b4edbca1" />
 <br>
 <br>
-
-# ### Phase 5 — Detection and Investigation of Unauthorized Local Account Creation for Persistence Using Windows Security Event Logs, Splunk SIEM, and MITRE ATT&CK T1136.001
-<br>
-<br>
-### 🧪 Detection and Investigation Workflow
-
-1. **Simulate Account Creation:** Create a test local user account on the authorized Windows target machine.
-
-2. **Generate Security Telemetry:** Verify that Windows records the account-creation activity under Security Event ID `4720`.
-
-3. **Collect Logs in Splunk:** Forward Windows Security events to the Splunk server using the Splunk Universal Forwarder.
-
-4. **Search for Suspicious Activity:** Execute an SPL query to identify account-creation events and examine the associated user and host information.
-
-5. **Investigate the Event:** Determine whether the new account was created by an authorized administrator or represents suspicious activity.
-
-6. **Map to MITRE ATT&CK:** Classify the observed behavior under **T1136.001 — Create Local Account**.
-<br>
-<br>
-
-Step 29:- Go to Kali linux and follow ths steps.
-<br>
-<br>
-
-<br>
-<br>
 # Conclusion & Lessons Learned 
 <br>
 
